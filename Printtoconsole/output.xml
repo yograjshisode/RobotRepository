@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20160802 21:31:38.938" generator="Robot 3.0 (Python 2.7.6 on linux2)">
+<suite source="/home/chaitanya/Robot/MyTest.robot" id="s1" name="MyTest">
+<test id="s1-t1" name="My Test">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${MESSAGE}</arg>
+</arguments>
+<status status="PASS" endtime="20160802 21:31:38.965" starttime="20160802 21:31:38.965"></status>
+</kw>
+<kw name="Comment" library="BuiltIn">
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<arguments>
+<arg>${MESSAGE}</arg>
+</arguments>
+<status status="PASS" endtime="20160802 21:31:38.966" starttime="20160802 21:31:38.966"></status>
+</kw>
+<doc>Print on console</doc>
+<tags>
+<tag>print it</tag>
+</tags>
+<status status="PASS" endtime="20160802 21:31:38.966" critical="yes" starttime="20160802 21:31:38.964"></status>
+</test>
+<status status="PASS" endtime="20160802 21:31:38.966" starttime="20160802 21:31:38.939"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">print it</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="MyTest" pass="1">MyTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

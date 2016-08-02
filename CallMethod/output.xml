@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20160802 22:28:13.181" generator="Robot 3.0 (Python 2.7.6 on linux2)">
+<suite source="/home/chaitanya/Robot/MethodCall.robot" id="s1" name="MethodCall">
+<test id="s1-t1" name="My Test">
+<kw name="Call Method" library="BuiltIn">
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<arguments>
+<arg>${d}</arg>
+<arg>get_message</arg>
+</arguments>
+<assign>
+<var>${returnvalue}</var>
+</assign>
+<msg timestamp="20160802 22:28:13.207" level="INFO">${returnvalue} = Hello World</msg>
+<status status="PASS" endtime="20160802 22:28:13.208" starttime="20160802 22:28:13.207"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${returnvalue}</arg>
+</arguments>
+<status status="PASS" endtime="20160802 22:28:13.208" starttime="20160802 22:28:13.208"></status>
+</kw>
+<doc>Print on console</doc>
+<tags>
+<tag>print it</tag>
+</tags>
+<status status="PASS" endtime="20160802 22:28:13.208" critical="yes" starttime="20160802 22:28:13.207"></status>
+</test>
+<status status="PASS" endtime="20160802 22:28:13.208" starttime="20160802 22:28:13.182"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">print it</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="MethodCall" pass="1">MethodCall</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20160802 22:51:47.070" generator="Robot 3.0 (Python 2.7.6 on linux2)">
+<suite source="/home/chaitanya/Robot/Catenate.robot" id="s1" name="Catenate">
+<test id="s1-t1" name="Catenate Example">
+<kw name="Catenate" library="BuiltIn">
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<arguments>
+<arg>${str1}</arg>
+<arg>${str2}</arg>
+</arguments>
+<assign>
+<var>${str1}</var>
+</assign>
+<msg timestamp="20160802 22:51:47.089" level="INFO">${str1} = Hello World</msg>
+<status status="PASS" endtime="20160802 22:51:47.089" starttime="20160802 22:51:47.089"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${str1}</arg>
+</arguments>
+<status status="PASS" endtime="20160802 22:51:47.090" starttime="20160802 22:51:47.089"></status>
+</kw>
+<doc>String Concat</doc>
+<tags>
+<tag>Combining two strings</tag>
+</tags>
+<status status="PASS" endtime="20160802 22:51:47.090" critical="yes" starttime="20160802 22:51:47.088"></status>
+</test>
+<status status="PASS" endtime="20160802 22:51:47.090" starttime="20160802 22:51:47.071"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">Combining two strings</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Catenate" pass="1">Catenate</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
